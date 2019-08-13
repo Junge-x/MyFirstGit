@@ -23,7 +23,7 @@ class App extends Component {
     }
     ONcollapsed() {
         console.log(this.state.collapsed);
-        console.log('谢云洁')
+       
         this.setState({
             collapsed: !this.state.collapsed
         })
